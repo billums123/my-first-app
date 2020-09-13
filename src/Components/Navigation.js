@@ -18,7 +18,7 @@ function Navigation() {
         enter: { opacity: 1, transform: 'translateX(0%)' },
         leave: { opacity: 0, transform: 'translateX(-100%)' },
     })
-
+console.log(showMenu)
     return (
         <nav>
             <span className="text-xl">

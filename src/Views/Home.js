@@ -10,7 +10,7 @@ function Home() {
         data: null,
         error: false,
     })
-console.log(products.data)
+console.log(products.error)
 
     useEffect(() => {
         setProducts({
