@@ -12,7 +12,6 @@ function Navigation() {
         enter: { opacity: 1 },
         leave: { opacity: 0 },
     })
-
     const menuTransitions = useTransition(showMenu, null, {
         from: { opacity: 0, transform: 'translateX(-100%)' },
         enter: { opacity: 1, transform: 'translateX(0%)' },
